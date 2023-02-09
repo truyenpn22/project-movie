@@ -43,7 +43,7 @@ const HomeContainer = () => {
                     {
                         content && content.length > 0 ? content.map((item, index)=>{
                             return (<CardMoviesComponents key={index} data={item} />)
-                        }) : 'Loading ....'
+                        }) : 'Vui lòng chờ...'
                     }
                     
                 {

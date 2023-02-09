@@ -66,7 +66,7 @@ const  SearchContainer = ()=>{
                                 {
                                     content && content.length > 0 ? content.map((item, index)=>{
                                         return (<CardMoviesComponents key={index} data={item} mediaType={typeValue}/>)
-                                    }) : 'Không tìm thấy tìm kiếm... '
+                                    }) : 'Vui lòng chờ... '
                                 }
 
                             {

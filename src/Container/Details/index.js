@@ -130,7 +130,7 @@ const DetailsContainer = ()=>{
             <main className='detailsPage'>
             <Container>
                 {
-                    titleName && titleName !==  '' ? renderDataHtml() : 'Loading...'
+                    titleName && titleName !==  '' ? renderDataHtml() : 'Vui lòng chờ...'
                 }
                 
             </Container>
@@ -140,7 +140,7 @@ const DetailsContainer = ()=>{
                         <Row>
                             <Col className='col-12'>
                                 {
-                                    credits && credits.length > 0 ? <DarkVariantExample data={credits} /> : 'Lading data...'
+                                    credits && credits.length > 0 ? <DarkVariantExample data={credits} /> : 'Vui lòng chờ...'
                                 }
                                 
                             </Col>

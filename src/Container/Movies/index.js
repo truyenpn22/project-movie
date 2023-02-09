@@ -66,7 +66,7 @@ const  MoviesContainer = ()=>{
                                 {
                                     content && content.length > 0 ? content.map((item, index)=>{
                                         return (<CardMoviesComponents key={index} data={item} mediaType="movie"/>)
-                                    }) : 'Loading ....'
+                                    }) : 'Vui lòng chờ...'
                                 }
 
                             {

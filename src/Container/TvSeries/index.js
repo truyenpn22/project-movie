@@ -65,7 +65,7 @@ const  TvSeriesContainer = ()=>{
                                 {
                                     content && content.length > 0 ? content.map((item, index)=>{
                                         return (<CardMoviesComponents key={index} data={item} mediaType="tv"/>)
-                                    }) : 'Đang tìm kiếm ....'
+                                    }) : 'Vui lòng chờ...'
                                 }
 
                             {

@@ -70,7 +70,7 @@ const LeftListBarComponent = (
                                 {item.name}
                             </ListGroup.Item>
                         )
-                    }) : 'Lading content...'
+                    }) : 'Vui lòng chờ...'
                 }
             </ListGroup>
         </aside>
